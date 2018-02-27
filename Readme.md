@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Maxim Tinkov](https://up.htmlacademy.ru/htmlcss/20/user/669691).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Кошара] (https://htmlacademy.ru/profile/rednaxxxela).
 
 ---
 
