@@ -5,8 +5,129 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Профессиональный HTML и CSS, уровень 1</a>».</p>
-
+	<header class="main-header">
+		<nav class="main-nav">
+			<a class="main-header-logo">
+				<img src="img/index-logo.svg" height="" width="" alt="Логотип Sedona">
+			</a>
+			<ul class="site-navigation">
+				<li><a href="index.html">Информация</a></li>
+				<li><a href="media.html">Фото и Видео</a></li>
+				<li><a href="map.html">Карта штата</a></li>
+				<li><a href="catalog.html">Гостиницы</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<div class="intro">							<!-- Блок текста, расположенный в самом начале на фоне картинки, сама картинка относится к фону -->
+			<ul class="intro-list">					          
+				<li class="intro-item1">			<!-- Лучше присвоить каждому li свой item? или проще обраться из css через псевдокласс nth-child -->
+					Welcom
+				</li>
+				<li class="intro-item2">
+					- to the gorgeous - 
+				</li>
+				<li class="intro-item3">
+					SEDONA
+				</li>
+				<li class="intro-item4">
+					"Because the Grand <br> 
+					Canyon sucks!"
+				</li>
+			</ul>
+		</div>
+				
+		<section class="features">																	<!-- Первывй блок преимуществ (сюда же включил первые 2 абзаца после начальной картинки -->
+				<p class="feature-text"><b>Седона - небольшой городок в аризоне, <br>						
+				Заслуживающий большего!</b>
+				<p class="feature-text"> Рассмотрим 5 причин, по которым седона круче чем гранд каньон!
+			
+			<ul class="feature-list">																<!-- Список состоит из текста и картинки (считаю ее смысловой) -->
+				<li class="feature-item">
+					<h3> Настоящий <br> городок</h3>
+					<p> - №1 - </p>
+					<p> Седона - не аттракцион для туристов,<br> там течет своя жизнь</p>
+				</li>
+				<li class="feature-foto"> 	
+					<img src="img/city.svg" height="" width="" alt="Фото города">
+				</li>
+			</ul>
+		</section>
+		
+		<section class="leisure">																	<!-- блок с развлечениями -->
+			<ul class="leisure-list">
+				<li class="leisure-item"> 
+					<h3> Жилье </h3>
+					<p> Рекомендуем пожить в настоящем </br> мотеле, как в кино!</p>
+				</li>
+				<li class="leisure-item"> 
+					<h3> Еда </h3>
+					<p> Всегда заказывайте фирменный бургер, </br> вы не разочаруетесь!</p> 
+				</li>
+				<li class="leisure-item"> 
+					<h3> Сувениры </h3>
+					<p> Не только китайского, но и местного </br> производства!</p>
+				</li>
+			</ul>
+		</section>
+		
+		<section class="features">																	<!-- Список состоит из картинки и текста (стили присвоил те же - features) -->
+			<ul class="feature-list">
+				<li class="feature-foto"> 	
+					<img src="img/city.svg" height="" width="" alt="Фото города">
+				</li>
+				<li class="feature-item">
+					<h3>Там есть <br> мост дьявола</h3>
+					<p> - №2 - </p>
+					<p> Да, по нему можно пройти! Если конечно <br> вы осмелитесь</p>
+				</li>
+			</ul>
+		</section>
+		
+		<section class="features-other">  						<!-- Правильно присвоить новый класс только тегу section, чтобы измень цветовое формление? А список оставить со старыми классами -->
+			<ul class="feature-list">
+				<li class="feature-item">
+					<h3>Небольшая <br> площадь</h3>
+					<p> - №3 - </p>
+					<p> Все достопримечательности <br> находятся очень близко</p>
+				</li>
+				<li class="feature-item">
+					<h3>Красивая <br> дорога</h3>
+					<p> - №4 - </p>
+					<p> Ехать в седону из Лас-Вегаса совсем <br> не скучно!</p>
+				</li>
+				<li class="feature-item">
+					<h3>Мало <br> туристов</h3>
+					<p> - №5 - </p>
+					<p> Большинство едет в Гранд Каньон и <br> толпится там</p>
+				</li>
+			</ul>
+		</section>
+		
+		<section class="search">
+			<p><b>Заинетересовались?</b></p>
+			<p>Укажите предполагаемые даты поездки,<br>
+			И мы покажем вам лучшие предложения гостиниц в Седоне</p>
+			<!--Здесь будет форма-->
+			<!--Карта-->
+		</section>
+		
+	<footer class="main-footer">
+			<p class="footer-heshteg">
+				#VISITSEDONA
+			</p>
+			<div class="footer-social">
+				<ul>
+					<li><a class="social-button" href="#">Твиттер</a></li>
+					<li><a class="social-button" href="#">Фейсбук</a></li>
+					<li><a class="social-button" href="#">Ютуб</a></li>
+				</ul>
+			</div>
+			<p class="footer-copyright">
+				<b>Website by:</b>
+				<a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+			</p>
+	</footer>
   </body>
 </html>
